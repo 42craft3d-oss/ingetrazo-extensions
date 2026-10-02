@@ -1,0 +1,14 @@
+# Extensions a maintainer has read. Only maintainers edit this file
+# (.github/CODEOWNERS). The review is for ONE file: the hash below. When an
+# entry's sha256 changes, the page shows it as «Community» again until a
+# maintainer reads the new version and updates the hash here.
+
+[niveles]
+sha256 = "ddf8c6e17bd164f336e8f514c257fc2a0abc4f6f9b16ff0a589c5a5bc73afed2"
+by = "tuxiasumari"
+date = 2026-10-02
+
+[propiedades_poligono]
+sha256 = "99c021dea07956dce73af39ba9cdc74eb0063797e689c39015c2f5d202cd6782"
+by = "tuxiasumari"
+date = 2026-10-02

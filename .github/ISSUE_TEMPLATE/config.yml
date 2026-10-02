@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: A bug in an extension / Un error en una extensión
+    url: https://ingetrazo.com/extensiones
+    about: Report it in the extension's own repository (link on its card). / Repórtalo en el repositorio de la extensión.
+  - name: A bug in IngeTrazo / Un error en IngeTrazo
+    url: https://github.com/ingelibre/ingetrazo/issues
+    about: IngeTrazo's issue tracker.

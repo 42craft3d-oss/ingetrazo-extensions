@@ -1,0 +1,19 @@
+id = "propiedades_poligono"
+version = "0.5.7"
+author = "Rony Leonel Janampa Monago"
+license = "MIT"
+repository = "https://github.com/ingelibre/ingetrazo/blob/v0.5.7/examples/extensions/propiedades_poligono.py"
+download = "https://raw.githubusercontent.com/ingelibre/ingetrazo/v0.5.7/examples/extensions/propiedades_poligono.py"
+sha256 = "99c021dea07956dce73af39ba9cdc74eb0063797e689c39015c2f5d202cd6782"
+ingetrazo = "0.5.7"
+tags = ["structures", "analysis"]
+
+[name]
+es = "Propiedades del polígono"
+en = "Polygon properties"
+pt = "Propriedades do polígono"
+
+[summary]
+es = "Área, perímetro, centroide y momentos de segundo orden de las caras seleccionadas, con huecos y secciones compuestas."
+en = "Area, perimeter, centroid and second moments of the selected faces, holes and composite sections included."
+pt = "Área, perímetro, centroide e momentos de segunda ordem das faces selecionadas, com furos e seções compostas."
