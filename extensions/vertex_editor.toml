@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/42craft3d-oss/ingetrazo-vertex-edi
 sha256 = "2d65e8c4fa0e27a5f5468eb46c8657cd64ecf3da6b73e096604bfb431c6bd9f7"
 ingetrazo = "0.5.5"
 tags = ["drawing", "productivity"]
+screenshot = "vertex_editor.png"
 
 [name]
 es = "Editor de vértices"
