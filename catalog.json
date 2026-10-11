@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-10T13:14Z",
+ "generated": "2026-10-11T14:25Z",
  "tags": [
   "analysis",
   "architecture",
@@ -966,6 +966,39 @@
    "reviewed": false
   },
   {
+   "id": "igz_solids",
+   "version": "1.0.0",
+   "author": "Ezequiel M. Rezende",
+   "author_url": "https://github.com/em-rezende",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/em-rezende/Ingetrazo-igz-solids",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-solids/releases/download/v1.0.0/igz_solids.zip",
+   "sha256": "9bc82a17b203d43aa770a19d573bdb197797cdeb3ab49cc11e2c2f5a7ac7a4c8",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "drawing",
+    "structures",
+    "productivity"
+   ],
+   "screenshot": "igz-solids.png",
+   "name": {
+    "es": "Sólidos paramétricos",
+    "en": "Parametric solids",
+    "pt": "Sólidos paramétricos"
+   },
+   "summary": {
+    "es": "14 sólidos paramétricos: caja, cápsula, cilindro/tubo, esfera, cono/pirámide, esfera geodésica (con balón), hélice, prisma y toro. Cada uno entra como su propio grupo estanco, en un solo paso de deshacer.",
+    "en": "14 parametric solids: box, capsule, cylinder/tube, sphere, cone/pyramid, geodesic sphere (football included), helix, prism and torus. Each one is inserted as its own watertight group, in a single undo step.",
+    "pt": "14 sólidos paramétricos: caixa, cápsula, cilindro/tubo, esfera, cone/pirâmide, esfera geodésica (com bola), hélice, prisma e toro. Cada um entra como o seu próprio grupo watertight, num único passo de undo."
+   },
+   "description": {
+    "es": "Una barra de herramientas y un submenú (Extensiones ▸ Sólidos) con 14 sólidos paramétricos. Cada botón abre un diálogo en metros y luego se coloca con un clic sobre el cursor (con vista previa de alambre) o en el origen. El sólido se crea como su propio grupo, con malla cerrada y costuras curvas suavizadas: nunca se suelda al modelo y se selecciona, mueve y edita como un objeto. Incluye la esfera geodésica (tetraedro, octaedro o icosaedro subdividido) y, además, un balón de fútbol: el icosaedro truncado exacto, con 12 pentágonos y 20 hexágonos. Los iconos siguen el tema oscuro o claro y la interfaz habla inglés, español, portugués de Brasil e italiano.",
+    "en": "A toolbar and a submenu (Extensions ▸ Solids) with 14 parametric solids. Each button opens a dialog in metres and then places the solid with a click on the cursor (with a live wireframe preview) or at the origin. The solid is created as its own group, with a closed mesh and softened curved seams: it never welds to the model, so it selects, moves and edits as one object. It includes the geodesic sphere (a subdivided tetrahedron, octahedron or icosahedron) and, on top of that, a football: the exact truncated icosahedron, 12 pentagons and 20 hexagons. The icons follow the dark or light theme and the interface speaks English, Spanish, Brazilian Portuguese and Italian.",
+    "pt": "Uma barra de ferramentas e um submenu (Extensões ▸ Sólidos) com 14 sólidos paramétricos. Cada botão abre um diálogo em metros e depois coloca o sólido com um clique no cursor (com pré-visualização em aramado) ou na origem. O sólido é criado como o seu próprio grupo, com malha fechada e costuras curvas suavizadas: nunca se solda ao modelo, pelo que se seleciona, move e edita como um único objeto. Inclui a esfera geodésica (tetraedro, octaedro ou icosaedro subdividido) e, além disso, uma bola de futebol: o icosaedro truncado exato, com 12 pentágonos e 20 hexágonos. Os ícones seguem o tema escuro ou claro e a interface fala inglês, espanhol, português do Brasil e italiano."
+   },
+   "reviewed": false
+  },
+  {
    "id": "roof_tile_tool",
    "version": "1.0",
    "author": "Pesi (pesi3d.de)",
@@ -1015,6 +1048,54 @@
     "es": "Terreno a partir de curvas de nivel o puntos: malla suave o TIN de Delaunay, editor de cotas, limpieza de líneas, zócalo con base cerrada y vista previa en vivo.",
     "en": "Terrain from contour lines or points: smooth grid or Delaunay TIN, altitude editor, line clean-up, skirt with closed base and live preview.",
     "pt": "Terreno a partir de curvas de nível ou pontos: malha suave ou TIN de Delaunay, editor de cotas, limpeza de linhas, saia com base fechada e prévia ao vivo."
+   },
+   "reviewed": false
+  },
+  {
+   "id": "ui_colores_space",
+   "version": "0.1.0",
+   "author": "sanask24",
+   "author_url": "https://github.com/sanask24",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/sanask24/ui-colores-space",
+   "download": "https://raw.githubusercontent.com/sanask24/ui-colores-space/165c6652370f6489a0435b327faa87e88d9f690b/dist/UI-Colores-Space-0.1.0.zip",
+   "sha256": "4082aa3e8826f3e093a8d252b57151b3a63e2bbacb77609a94b2453087317978",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity",
+    "drawing"
+   ],
+   "name": {
+    "es": "UI Colores + Space",
+    "en": "Coloured Tools + Space"
+   },
+   "summary": {
+    "es": "Iconos de herramientas con colores por familia, adaptados a los temas claro y oscuro. Espacio abre el buscador nativo de comandos; ambas funciones se pueden desactivar.",
+    "en": "Category-coloured toolbar icons for light and dark themes. Space opens native command search; both features can be disabled independently."
+   },
+   "reviewed": false
+  },
+  {
+   "id": "standard_views_2",
+   "version": "1.0.0",
+   "author": "TB",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/tboy-123/Alternative-Standard-views-toolbar",
+   "download": "https://raw.githubusercontent.com/tboy-123/Alternative-Standard-views-toolbar/v1.0.0/standard_views_2.py",
+   "sha256": "59b97e68ea57add7834813a1384d4483e502db68c00be108086963d1646402ea",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity"
+   ],
+   "name": {
+    "es": "Vistas estándar alternativas 2",
+    "en": "Standard Views 2",
+    "pt": "Vistas padrão alternativas 2"
+   },
+   "summary": {
+    "es": "Barra de herramientas con vistas estándar de 48px, ciclo de proyecciones, zoom inteligente y cambio de tema.",
+    "en": "Toolbar with alternative 48px standard views, camera projection cycle, smart selection zoom, and native theme toggler.",
+    "pt": "Barra de ferramentas com vistas padrão de 48px, ciclo de projeções, zoom inteligente e alternador de tema."
    },
    "reviewed": false
   }
