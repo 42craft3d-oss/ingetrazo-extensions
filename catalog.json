@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-11T14:26Z",
+ "generated": "2026-10-11T14:51Z",
  "tags": [
   "analysis",
   "architecture",
@@ -979,6 +979,7 @@
     "architecture",
     "drawing"
    ],
+   "screenshot": "subdiv.png",
    "name": {
     "es": "SubD (modelado por subdivisión)",
     "en": "SubD (subdivision modelling)",
