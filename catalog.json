@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-13T03:13Z",
+ "generated": "2026-10-13T22:15Z",
  "tags": [
   "analysis",
   "architecture",
@@ -274,7 +274,7 @@
    "reviewed": false
   },
   {
-   "id": "archxq_it",
+   "id": "archxq_it_lite",
    "version": "0.9.5",
    "author": "Orlando Souza · XQ",
    "author_url": "https://github.com/equipexq",
@@ -449,6 +449,33 @@
     "es": "Convierte mallas trianguladas en caras de cuatro lados (pares planos en caras reales, curvos con diagonal suavizada) y rehace terrenos como cuadrícula de cuadriláteros. Vista previa.",
     "en": "Turns triangulated meshes into four-sided faces (flat pairs become real quads, curved ones get a soft diagonal) and rebuilds terrain as a clean grid of quads. Live preview.",
     "pt": "Converte malhas trianguladas em faces de quatro lados (pares planos viram faces reais, curvos ganham diagonal suavizada) e refaz terrenos como grade de quadriláteros. Prévia."
+   },
+   "reviewed": false
+  },
+  {
+   "id": "divide_points",
+   "version": "0.2.1",
+   "author": "G. Andreotti",
+   "author_url": "https://github.com/joejivaros",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/joejivaros/Plugin",
+   "screenshot": "divide_points.png",
+   "download": "https://github.com/joejivaros/Plugin/releases/download/v0.2.1/divide_points-v0.2.1.zip",
+   "sha256": "f565e0f94207a46f84a6dcf09408d949fded035664ebe70bb082c01da31abf2c",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "name": {
+    "en": "Divide Points",
+    "es": "Dividir con puntos",
+    "pt": "Dividir com pontos"
+   },
+   "summary": {
+    "en": "Places guide points along the selected lines and curves, by number of points or by distance, starting from both ends or from the middle. Live preview, one undo step.",
+    "es": "Coloca puntos guía a lo largo de las líneas y curvas seleccionadas, por número de puntos o por distancia, desde ambos extremos o desde el centro. Vista previa y un solo paso de deshacer.",
+    "pt": "Coloca pontos-guia ao longo das linhas e curvas selecionadas, por número de pontos ou por distância, a partir das duas pontas ou do meio. Prévia e um só passo de desfazer."
    },
    "reviewed": false
   },
@@ -1100,6 +1127,33 @@
    "summary": {
     "es": "Iconos de herramientas con colores por familia, adaptados a los temas claro y oscuro. Espacio abre el buscador nativo de comandos; ambas funciones se pueden desactivar.",
     "en": "Category-coloured toolbar icons for light and dark themes. Space opens native command search; both features can be disabled independently."
+   },
+   "reviewed": false
+  },
+  {
+   "id": "igz_uv",
+   "version": "1.0.0",
+   "author": "Ezequiel M. Rezende",
+   "author_url": "https://github.com/em-rezende",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/em-rezende/Ingetrazo-igz-uv",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-uv/releases/download/v1.0.0/igz-uv.zip",
+   "sha256": "bd7c2a98204b94f97ced039c57f2a21d098d4fb74ec3e6ec1b0c140e8612cb25",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "rendering",
+    "productivity"
+   ],
+   "screenshot": "igz_uv.png",
+   "name": {
+    "es": "UV (herramientas de mapeo UV)",
+    "en": "UV (UV mapping tools)",
+    "pt": "UV (ferramentas de mapeamento UV)"
+   },
+   "summary": {
+    "es": "Seis proyecciones UV (planar, esférica, cilíndrica, caja, quad y tube), transformación interactiva por teclado, panel con desplazamiento U/V, rotación y escala anisotrópica, triangulación y rejilla UV automática.",
+    "en": "Six UV projections (planar, spherical, cylindrical, box, quad, tube), an interactive keyboard transform, a panel with U/V offset, rotation and anisotropic scale, triangulation and an automatic UV grid.",
+    "pt": "Seis projeções UV (planar, esférica, cilíndrica, caixa, quad e tube), transformação interativa por teclado, painel com deslocamento U/V, rotação e escala anisotrópica, triangulação e grade UV automática."
    },
    "reviewed": false
   },
