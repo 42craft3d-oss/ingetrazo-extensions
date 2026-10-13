@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-13T00:25Z",
+ "generated": "2026-10-13T03:13Z",
  "tags": [
   "analysis",
   "architecture",
@@ -406,7 +406,7 @@
    "repository": "https://github.com/jurdeczkarichard-sketch/angle-dimension",
    "download": "https://raw.githubusercontent.com/jurdeczkarichard-sketch/angle-dimension/v1.0.0/Angle_Dimension.py",
    "sha256": "162a726e245c08eeaf70e8d3f00dbffcb76341c59320555ea285977ee0ddcc63",
-   "ingetrazo": "0.5.7",
+   "ingetrazo": "0.5.8",
    "tags": [
     "drawing",
     "analysis"
