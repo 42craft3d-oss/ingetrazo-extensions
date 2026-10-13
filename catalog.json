@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-11T14:51Z",
+ "generated": "2026-10-13T00:25Z",
  "tags": [
   "analysis",
   "architecture",
@@ -411,6 +411,7 @@
     "drawing",
     "analysis"
    ],
+   "screenshot": "angle_dimension.webp",
    "name": {
     "en": "Angle Dimension",
     "es": "Cota angular",
