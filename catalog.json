@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-16T19:37Z",
+ "generated": "2026-10-17T20:47Z",
  "tags": [
   "analysis",
   "architecture",
@@ -594,6 +594,35 @@
    "reviewed": false,
    "added_at": "2026-10-08T21:49Z",
    "updated_at": "2026-10-08T21:49Z"
+  },
+  {
+   "id": "stepexport",
+   "version": "0.3.0",
+   "author": "Nicolas Marc",
+   "author_url": "https://github.com/nicolasmarc",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/nicolasmarc/ingetrazo-step",
+   "download": "https://raw.githubusercontent.com/nicolasmarc/ingetrazo-step/v0.3.0/dist/stepexport-0.3.0.zip",
+   "sha256": "9ae3e19ef4a96f8376570af1e8aef692a1f6c7db757711b6cf69ac59e885aa81",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "import-export",
+    "productivity"
+   ],
+   "screenshot": "stepexport.png",
+   "name": {
+    "es": "Exportación STEP",
+    "en": "STEP export",
+    "pt": "Exportação STEP"
+   },
+   "summary": {
+    "es": "Exporta los grupos como sólidos STEP (.stp) editables en CAD/CAM: caras planas, agujeros, y cilindros reales reconocidos (taladros, varillas, redondeos). Informe antes de escribir.",
+    "en": "Export groups as STEP solids (.stp) editable in CAD/CAM: planar faces, holes, and true cylinders recognised (drill holes, rods, rounds). Report before writing.",
+    "pt": "Exporta os grupos como sólidos STEP (.stp) editáveis em CAD/CAM: faces planas, furos e cilindros reais reconhecidos (furos, varões, arredondamentos). Relatório antes de gravar."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-17T20:47Z",
+   "updated_at": "2026-10-17T20:47Z"
   },
   {
    "id": "igz_pdf3d",
