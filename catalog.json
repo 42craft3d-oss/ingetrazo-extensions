@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-19T19:56Z",
+ "generated": "2026-10-19T21:14Z",
  "tags": [
   "analysis",
   "architecture",
@@ -280,6 +280,7 @@
     "productivity",
     "other"
    ],
+   "screenshot": "automacao.webp",
    "name": {
     "pt": "Automação",
     "es": "Automatización",
