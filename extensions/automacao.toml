@@ -6,7 +6,7 @@ license = "MIT"
 repository = "https://github.com/42craft3d-oss/ingetrazo-automacao"
 download = "https://github.com/42craft3d-oss/ingetrazo-automacao/releases/download/v1.0.0/ingetrazo-automacao-v1.0.0.zip"
 sha256 = "e2e3bb902d375d7d5015750134dae36806ee66d25353ae5c36bfa9c0e0f71beb"
-ingetrazo = "0.5.7"
+ingetrazo = "0.5.8"
 tags = ["productivity", "other"]
 
 [name]
