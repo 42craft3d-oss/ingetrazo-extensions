@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-19T19:51Z",
+ "generated": "2026-10-19T19:56Z",
  "tags": [
   "analysis",
   "architecture",
@@ -511,6 +511,34 @@
    "reviewed": false,
    "added_at": "2026-10-04T22:35Z",
    "updated_at": "2026-10-19T14:00Z"
+  },
+  {
+   "id": "ifc_editor",
+   "version": "1.0",
+   "author": "smokey7428",
+   "author_url": "https://github.com/smokey7428",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/smokey7428/ingetrazo-addons",
+   "download": "https://github.com/smokey7428/ingetrazo-addons/releases/download/ifc_editor-v1.0/ifc_editor-1.0.zip",
+   "sha256": "17f929157c3084d98c4b3b54590907dda41c1f253cfbf0979976566bad664c0e",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "bim",
+    "import-export"
+   ],
+   "name": {
+    "es": "Datos IFC — lectura y edición",
+    "en": "IFC data — read and edit",
+    "pt": "Dados IFC — leitura e edição"
+   },
+   "summary": {
+    "es": "Lee y edita los datos IFC de un modelo: todos los campos y conjuntos de propiedades de cada elemento, con exportación a un .ifc que los conserva.",
+    "en": "Read and edit a model's IFC data: every field and property set of every element, with an .ifc export that keeps them.",
+    "pt": "Leia e edite os dados IFC de um modelo: todos os campos e conjuntos de propriedades de cada elemento, com exportação para um .ifc que os mantém."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-19T19:56Z",
+   "updated_at": "2026-10-19T19:56Z"
   },
   {
    "id": "display_scale",
@@ -1151,6 +1179,35 @@
    "reviewed": false,
    "added_at": "2026-10-19T17:28Z",
    "updated_at": "2026-10-19T17:28Z"
+  },
+  {
+   "id": "openings",
+   "version": "1.1",
+   "author": "smokey7428",
+   "author_url": "https://github.com/smokey7428",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/smokey7428/ingetrazo-addons",
+   "download": "https://github.com/smokey7428/ingetrazo-addons/releases/download/openings-v1.1/openings-1.1.zip",
+   "sha256": "a6618fe3bbb3703bac8d884dc8a7b3aa4af06e8994095f9c24e8c463d7bdb7e2",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "architecture",
+    "bim",
+    "structures"
+   ],
+   "name": {
+    "es": "Muros, puertas y ventanas",
+    "en": "Walls, doors and windows",
+    "pt": "Paredes, portas e janelas"
+   },
+   "summary": {
+    "es": "Dibuja muros por capas siguiendo una polilínea y coloca puertas y ventanas paramétricas en ellos, con sus datos IFC y un metrado por capa.",
+    "en": "Draw layered walls along a polyline and place parametric doors and windows in them, with their IFC data and a take-off per layer.",
+    "pt": "Desenhe paredes em camadas ao longo de uma polilinha e coloque portas e janelas paramétricas nelas, com os seus dados IFC e um orçamento por camada."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-19T19:56Z",
+   "updated_at": "2026-10-19T19:56Z"
   },
   {
    "id": "grading_tool",
