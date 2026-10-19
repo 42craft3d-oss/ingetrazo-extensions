@@ -8,6 +8,7 @@ download = "https://github.com/42craft3d-oss/ingetrazo-automacao/releases/downlo
 sha256 = "e2e3bb902d375d7d5015750134dae36806ee66d25353ae5c36bfa9c0e0f71beb"
 ingetrazo = "0.5.8"
 tags = ["productivity", "other"]
+screenshot = "automacao.webp"
 
 [name]
 pt = "Automação"
