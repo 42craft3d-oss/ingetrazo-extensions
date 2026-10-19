@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-19T04:42Z",
+ "generated": "2026-10-19T13:57Z",
  "tags": [
   "analysis",
   "architecture",
@@ -891,14 +891,14 @@
   },
   {
    "id": "array_tool",
-   "version": "1.2",
+   "version": "1.2.1",
    "author": "Pesi (pesi3d.de)",
    "author_url": "https://github.com/PESI3D",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/PESI3D/ingetrazo-array",
-   "download": "https://github.com/PESI3D/ingetrazo-array/releases/download/v1.2/array_tool.py",
-   "sha256": "cf4cdb79ab0a3402d0f6f565886cdf3641fbcf9137b058c07b69c22bb8456a51",
-   "ingetrazo": "0.5.7",
+   "download": "https://github.com/PESI3D/ingetrazo-array/releases/download/v1.2.1/array_tool.py",
+   "sha256": "331038c594bd6cf0b690bead65a61e89212d6ce63655f3231e8229c513cd719f",
+   "ingetrazo": "0.5.8",
    "tags": [
     "productivity",
     "drawing"
@@ -916,7 +916,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
-   "updated_at": "2026-10-05T17:41Z"
+   "updated_at": "2026-10-19T13:56Z"
   },
   {
    "id": "membrane_tool",
@@ -1275,14 +1275,14 @@
   },
   {
    "id": "weld_tool",
-   "version": "1.1",
+   "version": "1.2",
    "author": "Pesi (pesi3d.de)",
    "author_url": "https://github.com/PESI3D",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/PESI3D/ingetrazo-weld",
-   "download": "https://github.com/PESI3D/ingetrazo-weld/releases/download/v1.1/weld_tool.py",
-   "sha256": "32c78e0d8e57bc7b9d8671ef9db45f2601f4d3694d7168498b15b4833aafc7ce",
-   "ingetrazo": "0.5.7",
+   "download": "https://github.com/PESI3D/ingetrazo-weld/releases/download/v1.2/weld_tool.py",
+   "sha256": "39d31d2c94f1fca637762e5860459d2742d09078d7a046f49e7843ebeff8127e",
+   "ingetrazo": "0.5.8",
    "tags": [
     "drawing",
     "import-export",
@@ -1301,7 +1301,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:35Z",
-   "updated_at": "2026-10-05T17:45Z"
+   "updated_at": "2026-10-19T13:57Z"
   },
   {
    "id": "subdiv",
