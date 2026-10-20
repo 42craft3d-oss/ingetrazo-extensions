@@ -8,7 +8,7 @@ download = "https://raw.githubusercontent.com/42craft3d-oss/ingetrazo-loop-cut/v
 sha256 = "852c993a88229cbcfb88670914ceb9ba2dbeb8991810531241418aed8211d538"
 ingetrazo = "0.5.5"
 tags = ["drawing", "productivity"]
-screenshot = "loop_cut_cover.webp"
+screenshot = "loop_cut.webp"
 
 [name]
 es = "Corte en bucle"
