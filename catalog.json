@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-21T20:30Z",
+ "generated": "2026-10-21T20:31Z",
  "tags": [
   "analysis",
   "architecture",
@@ -237,14 +237,14 @@
   },
   {
    "id": "archxq_it_lite",
-   "version": "0.10.2",
+   "version": "0.10.3",
    "author": "Orlando Souza · XQ",
    "author_url": "https://github.com/equipexq",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/equipexq/archxq-it-lite",
-   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.10.2/archxq_it_lite-v0.10.2.zip",
-   "sha256": "9b2caf7ea8fe0eb683a592162637315336de5d9a1ff51da31860d48c58de6af7",
-   "ingetrazo": "0.5.7",
+   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.10.3/archxq_it_lite-v0.10.3.zip",
+   "sha256": "9ea03f80ed3fd74df50b4458d8c8b504a5cbe7456d09867069cde7b8ebd2118a",
+   "ingetrazo": "0.5.8",
    "tags": [
     "architecture",
     "terrain",
@@ -258,13 +258,13 @@
     "pt": "ArchXQ IT Lite · Arquitetura por fases"
    },
    "summary": {
-    "es": "Proyecto por fases sobre niveles reales: terreno con excavaciones y rellenos en rampa, muros rectos y curvos, y pilares en fila o en malla que se ajustan a las caras de los muros.",
-    "en": "A project by phases on real levels: the plot with excavations and fills on ramps, straight and curved walls, and columns in rows or grids that snap to the wall faces.",
-    "pt": "Projeto por fases sobre níveis reais: terreno com escavações e aterros em rampa, paredes retas e curvas, e pilares em fila ou em grelha que se alinham às faces das paredes."
+    "es": "Proyecto por fases sobre niveles reales: terreno con excavaciones y rellenos en rampa, muros rectos, curvos y muros cortina, y pilares en fila o en malla que se ajustan a las caras de los muros. En inglés, portugués y alemán.",
+    "en": "A project by phases on real levels: the plot with excavations and fills on ramps, straight, curved and curtain walls, and columns in rows or grids that snap to the wall faces. In English, Portuguese and German.",
+    "pt": "Projeto por fases sobre níveis reais: terreno com escavações e aterros em rampa, paredes retas, curvas e cortina de vidro, e pilares em fila ou em malha que se alinham às faces das paredes. Em inglês, português e alemão."
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
-   "updated_at": "2026-10-15T15:48Z"
+   "updated_at": "2026-10-21T20:31Z"
   },
   {
    "id": "automacao",
@@ -424,6 +424,42 @@
    "reviewed": false,
    "added_at": "2026-10-08T21:49Z",
    "updated_at": "2026-10-08T21:49Z"
+  },
+  {
+   "id": "chakkree_tools",
+   "version": "0.1.0",
+   "author": "Chakkree Tiyawongsuwan & PRIDA-TAKON",
+   "author_url": "https://github.com/PRIDA-TAKON",
+   "license": "MIT",
+   "repository": "https://github.com/PRIDA-TAKON/chakkreeTools-python",
+   "download": "https://github.com/PRIDA-TAKON/chakkreeTools-python/releases/download/v0.1.0/chakkree_tools-v0.1.0.zip",
+   "sha256": "46c7655434a883a2ab4a7a877589eccc370d73da6ee330d9faeab37820057eb1",
+   "ingetrazo": "0.5.7",
+   "screenshot": "chakkree_tools.png",
+   "tags": [
+    "structures",
+    "bim",
+    "architecture",
+    "productivity"
+   ],
+   "name": {
+    "es": "Chakkree Tools (Hormigón Armado y Armaduras)",
+    "en": "Chakkree Tools (RC & Rebar Generator)",
+    "pt": "Chakkree Tools (Concreto Armado e Armaduras)"
+   },
+   "summary": {
+    "es": "Herramientas paramétricas de hormigón armado para zapatas, columnas, vigas, losas y mallas de armadura 3D con integración .debim.",
+    "en": "Parametric reinforced concrete tools for footings, columns, beams, slabs and 3D rebar cages with .debim OpenBIM integration.",
+    "pt": "Ferramentas paramétricas de concreto armado para sapatas, pilares, vigas, lajes e armaduras 3D com integração .debim."
+   },
+   "description": {
+    "es": "Herramientas paramétricas de hormigón armado en IngeTrazo: zapatas con pilotes (1-9 pilotes), columnas (4-16 barras), vigas, losas (vigueta/placa pretensada y losa maciza), mallas de armadura 3D, medición de cantidades (QTO) y exportación a .debim.",
+    "en": "Parametric reinforced concrete tools in IngeTrazo: pile caps (1-9 piles), columns (4-16 bars), beams, slabs (precast plank and cast-in-place RC), 3D rebar cages, QTO take-off and export to .debim Building-as-Code.",
+    "pt": "Ferramentas paramétricas de concreto armado no IngeTrazo: blocos de coroamento (1-9 estacas), pilares (4-16 barras), vigas, lajes (pré-moldada e maciça), armaduras 3D, quantitativos (QTO) e exportação para .debim."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-21T20:30Z",
+   "updated_at": "2026-10-21T20:30Z"
   },
   {
    "id": "loop_cut",
