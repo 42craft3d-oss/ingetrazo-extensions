@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-20T08:21Z",
+ "generated": "2026-10-21T20:31Z",
  "tags": [
   "analysis",
   "architecture",
@@ -237,14 +237,14 @@
   },
   {
    "id": "archxq_it_lite",
-   "version": "0.10.2",
+   "version": "0.10.3",
    "author": "Orlando Souza · XQ",
    "author_url": "https://github.com/equipexq",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/equipexq/archxq-it-lite",
-   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.10.2/archxq_it_lite-v0.10.2.zip",
-   "sha256": "9b2caf7ea8fe0eb683a592162637315336de5d9a1ff51da31860d48c58de6af7",
-   "ingetrazo": "0.5.7",
+   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.10.3/archxq_it_lite-v0.10.3.zip",
+   "sha256": "9ea03f80ed3fd74df50b4458d8c8b504a5cbe7456d09867069cde7b8ebd2118a",
+   "ingetrazo": "0.5.8",
    "tags": [
     "architecture",
     "terrain",
@@ -258,13 +258,13 @@
     "pt": "ArchXQ IT Lite · Arquitetura por fases"
    },
    "summary": {
-    "es": "Proyecto por fases sobre niveles reales: terreno con excavaciones y rellenos en rampa, muros rectos y curvos, y pilares en fila o en malla que se ajustan a las caras de los muros.",
-    "en": "A project by phases on real levels: the plot with excavations and fills on ramps, straight and curved walls, and columns in rows or grids that snap to the wall faces.",
-    "pt": "Projeto por fases sobre níveis reais: terreno com escavações e aterros em rampa, paredes retas e curvas, e pilares em fila ou em grelha que se alinham às faces das paredes."
+    "es": "Proyecto por fases sobre niveles reales: terreno con excavaciones y rellenos en rampa, muros rectos, curvos y muros cortina, y pilares en fila o en malla que se ajustan a las caras de los muros. En inglés, portugués y alemán.",
+    "en": "A project by phases on real levels: the plot with excavations and fills on ramps, straight, curved and curtain walls, and columns in rows or grids that snap to the wall faces. In English, Portuguese and German.",
+    "pt": "Projeto por fases sobre níveis reais: terreno com escavações e aterros em rampa, paredes retas, curvas e cortina de vidro, e pilares em fila ou em malha que se alinham às faces das paredes. Em inglês, português e alemão."
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
-   "updated_at": "2026-10-15T15:48Z"
+   "updated_at": "2026-10-21T20:31Z"
   },
   {
    "id": "automacao",
@@ -391,13 +391,13 @@
   },
   {
    "id": "cad2ingetrazo",
-   "version": "3.11",
+   "version": "3.23.3",
    "author": "M. Tariq",
    "author_url": "https://github.com/mtak35",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/mtak35/cad2ingetrazo",
-   "download": "https://raw.githubusercontent.com/mtak35/cad2ingetrazo/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/release/cad2ingetrazo-v3.11.zip",
-   "sha256": "f6ec3f3b3e96c5ee271fdcbed662e7a08237cf7c25417f508c0acb44c3490c14",
+   "download": "https://raw.githubusercontent.com/mtak35/cad2ingetrazo/25f4d5ba9e631a4deb304ac71269785bc0f2291e/release/cad2ingetrazo-v3.23.3.zip",
+   "sha256": "47e2915db38ce26bff0f809858f0fc981b1395ab5c8b8a40b3d902bf3cb9dffc",
    "ingetrazo": "0.5.7",
    "tags": [
     "architecture",
@@ -412,18 +412,54 @@
     "pt": "CAD2IngeTrazo · De plantas CAD a BIM"
    },
    "summary": {
-    "es": "Convierte plantas de AutoCAD (DWG/DXF) en un modelo BIM editable, nivel por nivel: muros, puertas, ventanas, pilares, losas, núcleos, escaleras, rampas, estacionamiento y excavación.",
-    "en": "Turns AutoCAD floor plans (DWG/DXF) into an editable BIM model, level by level: walls, doors, windows, columns, slabs, lift cores, stairs, ramps, parking and excavation.",
-    "pt": "Converte plantas do AutoCAD (DWG/DXF) em um modelo BIM editável, nível por nível: paredes, portas, janelas, pilares, lajes, núcleos, escadas, rampas, estacionamento e escavação."
+    "es": "Convierte plantas de AutoCAD (DWG/DXF) en un modelo BIM editable, nivel por nivel: muros, puertas, ventanas, pilares, losas, escaleras, terrazas, plataforma, sitio, muebles, estacionamiento — y láminas con los grosores del CAD.",
+    "en": "Turns AutoCAD floor plans (DWG/DXF) into an editable BIM model, level by level: walls, doors, windows, columns, slabs, stairs, terraces, foundation platform, site, furniture, parking — and sheets with the CAD's own line weights.",
+    "pt": "Converte plantas do AutoCAD (DWG/DXF) em um modelo BIM editável, nível por nível: paredes, portas, janelas, pilares, lajes, escadas, terraços, plataforma, terreno, móveis, estacionamento — e pranchas com as espessuras do CAD."
    },
    "description": {
-    "es": "Lee cada planta por sus capas y apila los pisos a su altura real. Cada elemento es un tipo de componente con nombre (D-01, W-03, C-02…) que se selecciona, edita o reemplaza por un componente de la biblioteca de IngeTrazo. Muros cortina con puertas, barandas, terrazas, balcones, acabados de piso por ambiente, parcela con retiros, muro perimetral y excavaciones con volúmenes. Plantas, alzados, cortes y láminas a PDF, DXF y SketchUp. Manual de usuario (inglés): https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md",
-    "en": "Reads each plan by its layers and stacks the floors at their true heights. Every element is a named component type (D-01, W-03, C-02…) you can select, edit as a whole, or replace with an IngeTrazo library component. Curtain walls with doors, railings, terraces, balconies, floor finishes per room, the plot with setbacks, a boundary wall, and excavations with volumes. Plans, elevations, sections and sheets to PDF, DXF and SketchUp. User manual: https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md",
-    "pt": "Lê cada planta pelas suas camadas e empilha os pisos na altura real. Cada elemento é um tipo de componente com nome (D-01, W-03, C-02…) que se seleciona, edita ou substitui por um componente da biblioteca do IngeTrazo. Fachadas-cortina com portas, guarda-corpos, terraços, varandas, acabamentos de piso por ambiente, lote com recuos, muro de divisa e escavações com volumes. Plantas, elevações, cortes e pranchas em PDF, DXF e SketchUp. Manual do usuário (inglês): https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md"
+    "es": "Lee cada planta por sus capas — y por lo que dicen sus líneas ocultas (discontinuas): vanos, arcos, ventanas altas, aleros, voladizos y cortes de losa — y apila los pisos a su altura real. Cada elemento es un tipo de componente con nombre (D-01, W-03, C-02…) que se selecciona, edita o reemplaza por un componente de la biblioteca de IngeTrazo. Desde la 3.11: losas como pisos sobre una plataforma de cimentación con las gradas de entrada como están dibujadas; escaleras que siguen el plano (SUBE/BAJA, compensadas, tramos editables, acabados y narices); terrazas con barandas; losa de cubierta, vanos y diseños de parapeto; diseños de muro perimetral y portones de la biblioteca que se mueven con sus pilares; muebles y sanitarios de los bloques CAD mirando a los ambientes, en baja poligonización (alta para render); cocinas con Kitchen Maker; autos sobre el piso terminado; capas STEP como gradas (sin baranda), la capa LINE como celosías CNC, muretes y plataformas, puertas y ventanas por sus símbolos, niveles de piso por los textos de nivel, pilares redondos de la biblioteca, arcos islámicos, cúpulas, minaretes, chhatris y arcadas. Las láminas llevan el trazo del propio CAD con sus grosores de impresión (CTB). PDF, DXF y SketchUp .skp. El panel en 10 idiomas; avisa cuando el catálogo tiene una versión nueva. Manual de usuario (inglés): https://github.com/mtak35/cad2ingetrazo/blob/main/docs/MANUAL.md",
+    "en": "Reads each plan by its layers — and by what its hidden (dashed) lines say: openings, arches, high windows, sun shades, slab projections and cuts — and stacks the floors at their true heights. Every element is a named component type (D-01, W-03, C-02…) you can select, edit as a whole, or replace with an IngeTrazo library component. Since 3.11: slabs as floors on a foundation platform with entrance steps as drawn; stairs that follow the plan (UP/DN, winders, editable flights, finishes and nosings); terraces with railings; roof slab, openings and parapet designs; boundary wall designs and library gates movable with their pillars; furniture and fixtures from the CAD blocks facing the rooms, low-poly for speed (high-poly for rendering); kitchens with Kitchen Maker; cars on the finished floor; STEP layers as steps (no railing), the LINE layer as CNC grilles, low walls and platforms, doors and windows found from their symbols, floor levels from the level texts, library round columns, Islamic arch shapes, domes, minarets, chhatris and arcades. Sheets carry the CAD's own linework at its plotted line weights (CTB). PDF, DXF and a real SketchUp .skp. The panel in 10 languages; it tells you when the catalogue has a newer version. User manual: https://github.com/mtak35/cad2ingetrazo/blob/main/docs/MANUAL.md",
+    "pt": "Lê cada planta pelas suas camadas — e pelo que dizem as linhas ocultas (tracejadas): vãos, arcos, janelas altas, brises, balanços e cortes de laje — e empilha os pisos na altura real. Cada elemento é um tipo de componente com nome (D-01, W-03, C-02…) que se seleciona, edita ou substitui por um componente da biblioteca do IngeTrazo. Desde a 3.11: lajes como pisos sobre uma plataforma de fundação com os degraus de entrada como desenhados; escadas que seguem a planta (SOBE/DESCE, leques, lances editáveis, acabamentos e bocéis); terraços com guarda-corpos; laje de cobertura, vãos e desenhos de platibanda; desenhos de muro de divisa e portões da biblioteca que se movem com os pilares; móveis e louças dos blocos CAD voltados para os ambientes, em baixa poligonização (alta para render); cozinhas com o Kitchen Maker; carros sobre o piso acabado; camadas STEP como degraus (sem guarda-corpo), a camada LINE como cobogós CNC, muretas e plataformas, portas e janelas pelos seus símbolos, níveis de piso pelos textos de nível, pilares redondos da biblioteca, arcos islâmicos, cúpulas, minaretes, chhatris e arcadas. As pranchas levam o traço do próprio CAD com as espessuras de plotagem (CTB). PDF, DXF e SketchUp .skp. O painel em 10 idiomas; avisa quando o catálogo tem uma versão nova. Manual do usuário (inglês): https://github.com/mtak35/cad2ingetrazo/blob/main/docs/MANUAL.md"
    },
    "reviewed": false,
    "added_at": "2026-10-08T21:49Z",
-   "updated_at": "2026-10-08T21:49Z"
+   "updated_at": "2026-10-21T20:31Z"
+  },
+  {
+   "id": "chakkree_tools",
+   "version": "0.1.0",
+   "author": "Chakkree Tiyawongsuwan & PRIDA-TAKON",
+   "author_url": "https://github.com/PRIDA-TAKON",
+   "license": "MIT",
+   "repository": "https://github.com/PRIDA-TAKON/chakkreeTools-python",
+   "download": "https://github.com/PRIDA-TAKON/chakkreeTools-python/releases/download/v0.1.0/chakkree_tools-v0.1.0.zip",
+   "sha256": "46c7655434a883a2ab4a7a877589eccc370d73da6ee330d9faeab37820057eb1",
+   "ingetrazo": "0.5.7",
+   "screenshot": "chakkree_tools.png",
+   "tags": [
+    "structures",
+    "bim",
+    "architecture",
+    "productivity"
+   ],
+   "name": {
+    "es": "Chakkree Tools (Hormigón Armado y Armaduras)",
+    "en": "Chakkree Tools (RC & Rebar Generator)",
+    "pt": "Chakkree Tools (Concreto Armado e Armaduras)"
+   },
+   "summary": {
+    "es": "Herramientas paramétricas de hormigón armado para zapatas, columnas, vigas, losas y mallas de armadura 3D con integración .debim.",
+    "en": "Parametric reinforced concrete tools for footings, columns, beams, slabs and 3D rebar cages with .debim OpenBIM integration.",
+    "pt": "Ferramentas paramétricas de concreto armado para sapatas, pilares, vigas, lajes e armaduras 3D com integração .debim."
+   },
+   "description": {
+    "es": "Herramientas paramétricas de hormigón armado en IngeTrazo: zapatas con pilotes (1-9 pilotes), columnas (4-16 barras), vigas, losas (vigueta/placa pretensada y losa maciza), mallas de armadura 3D, medición de cantidades (QTO) y exportación a .debim.",
+    "en": "Parametric reinforced concrete tools in IngeTrazo: pile caps (1-9 piles), columns (4-16 bars), beams, slabs (precast plank and cast-in-place RC), 3D rebar cages, QTO take-off and export to .debim Building-as-Code.",
+    "pt": "Ferramentas paramétricas de concreto armado no IngeTrazo: blocos de coroamento (1-9 estacas), pilares (4-16 barras), vigas, lajes (pré-moldada e maciça), armaduras 3D, quantitativos (QTO) e exportação para .debim."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-21T20:30Z",
+   "updated_at": "2026-10-21T20:30Z"
   },
   {
    "id": "loop_cut",
@@ -484,6 +520,36 @@
    "updated_at": "2026-10-10T13:14Z"
   },
   {
+   "id": "croquis",
+   "version": "0.14.0",
+   "author": "Victor Crespo",
+   "author_url": "https://github.com/vicc3d",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/vicc3d/croquis-ingetrazo",
+   "download": "https://github.com/vicc3d/croquis-ingetrazo/releases/download/v0.14.0/croquis-0.14.0.zip",
+   "sha256": "d6d9727a4b88e5ad02cec56ba214921f4423c1cb01dace8f5e5babd4a585b02f",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "drawing",
+    "rendering",
+    "architecture"
+   ],
+   "screenshot": "croquis.webp",
+   "name": {
+    "es": "Croquis",
+    "en": "Croquis",
+    "pt": "Croquis"
+   },
+   "summary": {
+    "es": "Dibuja la vista como un croquis de arquitecto a mano alzada: tinta, rotulador, acuarela, rayado o alto contraste, sobre el papel que elijas. Exporta PNG, SVG por capas y PDF.",
+    "en": "Draws the view as an architect's freehand sketch: ink, marker, watercolour, hatching or high-contrast ink, on the paper you choose. Exports PNG, layered SVG and PDF.",
+    "pt": "Desenha a vista como um croqui de arquiteto à mão livre: nanquim, marcador, aquarela, hachura ou alto contraste, no papel que você escolher. Exporta PNG, SVG em camadas e PDF."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-21T20:30Z",
+   "updated_at": "2026-10-21T20:30Z"
+  },
+  {
    "id": "quadrify_tool",
    "version": "1.2",
    "author": "Pesi (pesi3d.de)",
@@ -515,13 +581,13 @@
   },
   {
    "id": "ifc_editor",
-   "version": "1.0",
+   "version": "1.1",
    "author": "smokey7428",
    "author_url": "https://github.com/smokey7428",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/smokey7428/ingetrazo-addons",
-   "download": "https://github.com/smokey7428/ingetrazo-addons/releases/download/ifc_editor-v1.0/ifc_editor-1.0.zip",
-   "sha256": "17f929157c3084d98c4b3b54590907dda41c1f253cfbf0979976566bad664c0e",
+   "download": "https://github.com/smokey7428/ingetrazo-addons/releases/download/ifc_editor-v1.1/ifc_editor-1.1.zip",
+   "sha256": "a5266697c8afbc8b2936e5f922f15d66316dc2a4d66c7dcb4d90efd53de6aad5",
    "ingetrazo": "0.5.9",
    "tags": [
     "bim",
@@ -539,7 +605,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-19T19:56Z",
-   "updated_at": "2026-10-19T19:56Z"
+   "updated_at": "2026-10-20T18:59Z"
   },
   {
    "id": "display_scale",
@@ -596,13 +662,13 @@
   },
   {
    "id": "node_editor",
-   "version": "1.1",
+   "version": "1.2",
    "author": "seghier",
    "author_url": "https://github.com/seghier",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/seghier/IngeTrazoNodeEditor",
-   "download": "https://github.com/seghier/IngeTrazoNodeEditor/releases/download/v1.1/node_editor.zip",
-   "sha256": "655289704b9f16b76324ccb3d92b5b6d220bfc1184c095fb3d837207ccb57907",
+   "download": "https://github.com/seghier/IngeTrazoNodeEditor/releases/download/v1.2/node_editor.zip",
+   "sha256": "a4c3450fa62af96e312fe375a34bdd514344b47d635059f90d152d1e29ba7bf5",
    "ingetrazo": "0.5.7",
    "tags": [
     "productivity",
@@ -621,7 +687,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
-   "updated_at": "2026-10-05T14:28Z"
+   "updated_at": "2026-10-21T17:34Z"
   },
   {
    "id": "igz_tb_scenes",
@@ -683,13 +749,13 @@
   },
   {
    "id": "igz_pdf3d",
-   "version": "1.0.1",
+   "version": "1.0.2",
    "author": "David Songer",
    "author_url": "https://github.com/dns-0",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/dns-0/igz_pdf3d",
-   "download": "https://github.com/dns-0/igz_pdf3d/releases/download/v1.0.1/igz_pdf3d.zip",
-   "sha256": "4331e1eebc67103392fe74909a979fb9124696b262815c8c5158149c5c6c2d40",
+   "download": "https://github.com/dns-0/igz_pdf3d/releases/download/v1.0.2/igz_pdf3d.zip",
+   "sha256": "4215682b520ad7639dc76dd901425aa7a519328d33b5b1b011b8500d16a72e34",
    "ingetrazo": "0.5.8",
    "tags": [
     "import-export",
@@ -714,7 +780,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-15T15:47Z",
-   "updated_at": "2026-10-15T15:47Z"
+   "updated_at": "2026-10-20T19:13Z"
   },
   {
    "id": "custom_icons",
@@ -1012,6 +1078,34 @@
    "updated_at": "2026-10-04T05:08Z"
   },
   {
+   "id": "cleaning",
+   "version": "0.1.1",
+   "author": "G. Andreotti",
+   "author_url": "https://github.com/joejivaros",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/joejivaros/Plugin",
+   "download": "https://github.com/joejivaros/Plugin/releases/download/cleaning-v0.1.1/cleaning-v0.1.1.zip",
+   "sha256": "c6a2c20c69d6f3f444441df44faa1a1ad9d1d3c3144dcaa8fae053ef7e9d8646",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "productivity",
+    "drawing"
+   ],
+   "name": {
+    "en": "Cleaning",
+    "es": "Limpieza",
+    "pt": "Limpeza"
+   },
+   "summary": {
+    "en": "Cleans the model in one undo step: stray edges, degenerate, duplicate and coplanar faces, split edges, identical and unused materials, unused layers, empty groups. Pick what to clean; Analyse counts it first.",
+    "es": "Limpia el modelo en un paso de deshacer: aristas sueltas, caras degeneradas, duplicadas y coplanares, aristas divididas, materiales idénticos y sin usar, capas sin usar, grupos vacíos. Analizar lo cuenta antes.",
+    "pt": "Limpa o modelo em um só passo de desfazer: arestas soltas, faces degeneradas, duplicadas e coplanares, arestas divididas, materiais idênticos e sem uso, camadas sem uso, grupos vazios. Analisar conta antes."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-21T20:30Z",
+   "updated_at": "2026-10-21T20:30Z"
+  },
+  {
    "id": "lista_corte_marcenaria",
    "version": "1.0.0",
    "author": "Victor Jardim",
@@ -1038,6 +1132,34 @@
    "reviewed": false,
    "added_at": "2026-10-13T22:15Z",
    "updated_at": "2026-10-13T22:15Z"
+  },
+  {
+   "id": "cutlist",
+   "version": "0.1.0",
+   "author": "Ronaldo Alves",
+   "author_url": "https://github.com/ronaldogalves",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/ronaldogalves/cutlist-ingetrazo",
+   "download": "https://github.com/ronaldogalves/cutlist-ingetrazo/releases/download/v0.1.0/cutlist-0.1.0.zip",
+   "sha256": "f576f2c963022e85175aa68385ec0d22c2130a5ccf179bc66fa9ca050f08442d",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "fabrication",
+    "import-export"
+   ],
+   "name": {
+    "en": "Cut List · parts, supplier exports, cutting diagrams",
+    "es": "Lista de corte · piezas, proveedores, planos de corte",
+    "pt": "Lista de corte · peças, fornecedores, planos de corte"
+   },
+   "summary": {
+    "en": "Cut list by board and thickness, read from how the model is painted (boards, laminates, edge bands); supplier exports (CorteCloud, Leo Madeiras); cutting diagrams for the saw, printed as PDF.",
+    "es": "Lista de corte por tablero y espesor, leída de la pintura del modelo (tableros, laminados, cantos); exportación a proveedores (CorteCloud, Leo Madeiras); planos de corte para la sierra en PDF.",
+    "pt": "Lista de corte por chapa e espessura, lida da pintura do modelo (chapas, laminados, fitas); exportação para fornecedores (CorteCloud, Leo Madeiras); planos de corte para a serra em PDF."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-21T20:31Z",
+   "updated_at": "2026-10-21T20:31Z"
   },
   {
    "id": "array_tool",
