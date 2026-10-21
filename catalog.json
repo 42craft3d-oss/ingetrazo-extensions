@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-21T17:34Z",
+ "generated": "2026-10-21T20:30Z",
  "tags": [
   "analysis",
   "architecture",
@@ -482,6 +482,36 @@
    "reviewed": false,
    "added_at": "2026-10-10T13:14Z",
    "updated_at": "2026-10-10T13:14Z"
+  },
+  {
+   "id": "croquis",
+   "version": "0.14.0",
+   "author": "Victor Crespo",
+   "author_url": "https://github.com/vicc3d",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/vicc3d/croquis-ingetrazo",
+   "download": "https://github.com/vicc3d/croquis-ingetrazo/releases/download/v0.14.0/croquis-0.14.0.zip",
+   "sha256": "d6d9727a4b88e5ad02cec56ba214921f4423c1cb01dace8f5e5babd4a585b02f",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "drawing",
+    "rendering",
+    "architecture"
+   ],
+   "screenshot": "croquis.webp",
+   "name": {
+    "es": "Croquis",
+    "en": "Croquis",
+    "pt": "Croquis"
+   },
+   "summary": {
+    "es": "Dibuja la vista como un croquis de arquitecto a mano alzada: tinta, rotulador, acuarela, rayado o alto contraste, sobre el papel que elijas. Exporta PNG, SVG por capas y PDF.",
+    "en": "Draws the view as an architect's freehand sketch: ink, marker, watercolour, hatching or high-contrast ink, on the paper you choose. Exports PNG, layered SVG and PDF.",
+    "pt": "Desenha a vista como um croqui de arquiteto à mão livre: nanquim, marcador, aquarela, hachura ou alto contraste, no papel que você escolher. Exporta PNG, SVG em camadas e PDF."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-21T20:30Z",
+   "updated_at": "2026-10-21T20:30Z"
   },
   {
    "id": "quadrify_tool",
@@ -1010,6 +1040,34 @@
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
    "updated_at": "2026-10-04T05:08Z"
+  },
+  {
+   "id": "cleaning",
+   "version": "0.1.1",
+   "author": "G. Andreotti",
+   "author_url": "https://github.com/joejivaros",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/joejivaros/Plugin",
+   "download": "https://github.com/joejivaros/Plugin/releases/download/cleaning-v0.1.1/cleaning-v0.1.1.zip",
+   "sha256": "c6a2c20c69d6f3f444441df44faa1a1ad9d1d3c3144dcaa8fae053ef7e9d8646",
+   "ingetrazo": "0.5.9",
+   "tags": [
+    "productivity",
+    "drawing"
+   ],
+   "name": {
+    "en": "Cleaning",
+    "es": "Limpieza",
+    "pt": "Limpeza"
+   },
+   "summary": {
+    "en": "Cleans the model in one undo step: stray edges, degenerate, duplicate and coplanar faces, split edges, identical and unused materials, unused layers, empty groups. Pick what to clean; Analyse counts it first.",
+    "es": "Limpia el modelo en un paso de deshacer: aristas sueltas, caras degeneradas, duplicadas y coplanares, aristas divididas, materiales idénticos y sin usar, capas sin usar, grupos vacíos. Analizar lo cuenta antes.",
+    "pt": "Limpa o modelo em um só passo de desfazer: arestas soltas, faces degeneradas, duplicadas e coplanares, arestas divididas, materiais idênticos e sem uso, camadas sem uso, grupos vazios. Analisar conta antes."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-21T20:30Z",
+   "updated_at": "2026-10-21T20:30Z"
   },
   {
    "id": "lista_corte_marcenaria",
